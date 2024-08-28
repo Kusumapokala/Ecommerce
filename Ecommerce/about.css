@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 30px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header .d-flex a {
+    margin-left: 10px;
+}
+
+header .d-flex button {
+    padding:8px 12px;
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.latest {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+.slide {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.slider {
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slideimg {
+    width: 240px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.slideh3 {
+    text-align: center;
+}
+
+.hor {
+    width: 100%;
+}
+
+.KUSUMA {
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 10px; */
+}
